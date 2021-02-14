@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="utf-8">
+		<title>How to play</title>
+
+		<script type="text/javascript" src="./../js/utility.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="./../css/metaGame.css">
+	</head>
+
+	<body onload="fadeIn()">
+		<div class="metaGame"">
+			<div id="title">
+				<a id="back_button" href="./../index.php">BACK</a>
+
+				<h1>How to play</h1>
+			</div>
+
+			<h2>Istruzioni preliminari</h2>
+			<p>
+				La pagina iniziale chiede all'utente di effettuare il login, o in alternativa registrarsi, se si tratta della la prima volta che si gioca a <strong>Through the Gates</strong>.
+				<br>
+				Autenticatisi, alla pressione del tasto <strong>INVIO</strong>, il gioco inizier&agrave. 
+				<br><br>
+				L'utente potr&agrave effettuare il logout appena autenticato, registrato o alla fine di ogni partita.<br>
+			</p>
+			<h2>Il Gioco</h2>
+				<img src="./../css/img/screen.png" alt="il cubo supera il cancello e compare un modificatore verde" width="50%" height="50%"></img>	
+			<p>Il gioco consiste nel far passare il cubo celeste attraverso le barre nere, le quali si muoveranno, aprendosi e chiudendosi. Premendo la <strong>barra spaziatrice</strong> il cubo rimbalzer&agrave e tender&agrave a ricadere,
+				premendolo con il giusto tempismo, sar&agrave possibile superare i cancelli e non toccare il fondo del campo da gioco.<strong>Il gioco termina quando 
+				si verifica una collisione tra il cubo e i cancelli, o il cubo e il fondo del campo da gioco.</strong> Non esiste un limite di punteggio ottenibile.
+				<br><br>
+				Il livello di difficolt&agrave aumenta <strong>ogni 5 punti</strong> ottenuti dal giocatore, e riguarda l'aumento di velocit&agrave del movimento dei cancelli e del loro spessore.
+				<br><br>
+				Un'altra dinamica opzionale del gioco consiste nell'uso dei <strong>modificatori</strong>: ogni 5 punti, comparir&agrave, per un secondo, sullo schermo un cubo di colore verde o rosso.
+				Se si preme il tasto <strong>INVIO</strong> mentre un modificatore &egrave sul campo da gioco, se ne attiva l'effetto:
+				<ul>
+					<li>Cubo Rosso: Il livello di difficolt&agrave aumenta del doppio di quanto sarebbe aumentato per il solo naturale flusso di gioco.
+					<li>Cubo Verde: Il livello di difficolt&agrave rimane immutato, ossia viene prevenuto l'aumento di difficolt&agrave dovuto al naturale flusso del gioco.
+				</ul>
+			</p>
+				
+			<p>
+				Al termine della partita verr&agrave mostrato un popup contenente il punteggio della partita appena conclusa e il massimo punteggio raggiunto dal giocatore.
+				Qui &egrave possibile effettuare il logout dal proprio account, oppure giocare una nuova partita.
+			</p>
+			
+			<p>
+				Questo gioco &egrave liberamente ispirato a Dash Up, disponibile per <a href = "https://play.google.com/store/apps/details?id=com.atpcreative.DashUp2&hl=it">Android</a> e 
+				<a href="https://itunes.apple.com/it/app/dash-up!/id910959738?mt=8">IOS</a>
+			</p>
+		</div>
+
+		<footer>
+			<p>
+				<a href="./howtoplay.html">How to play</a>
+				 
+				<a href="./ToS.html">Terms of Service</a>
+				 
+				<a href="./privacy.html">Privacy</a>
+			</p>
+		</footer>
+	</body>
+</html>

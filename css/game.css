@@ -1,0 +1,69 @@
+body{
+	background-image: url("img/sfondo.jpg");
+	margin: 0px;
+}
+
+.info{
+	color: white;
+	font-size:2vmax;
+	text-shadow: 2px 2px #000000;
+	margin-top: 30%;
+	background-color: rgba(0, 150, 135, 1);
+	border-radius: 50px;
+}
+
+#table{
+	font-size: 1.5vmax;
+	text-align:center;
+	border-collapse: separate;
+	border-spacing: 5px;
+	position:relative;
+	left: 10%;
+	top: 10px;
+}
+
+#playground{
+	border: 1px solid black;
+	position:fixed;
+	left: 25%;
+	right: 25%;
+	width: 50%;
+	height:100%;
+	background-color: black;
+}
+
+#leftside{
+	float: left;
+	text-align:center;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+#rightside{
+	float: right;
+	text-align: center;
+	margin-right: 5%;
+	margin-top: 10%;
+}
+
+#player{
+	position:relative;
+	height:40px;
+	width: 40px;
+	left: 47.2%;
+	background-color: lightblue;
+	box-shadow: 1px 1px 5px #000000;
+}
+
+.gate{
+	width: 50%;
+	max-width: 50%;
+	position:relative;
+	background-color: rgba(0, 150, 135, 1);
+	box-shadow: 1px 1px 5px #000000;
+}
+
+#modifier{
+	position: absolute;
+	box-shadow: 1px 1px 5px #000000;	
+}
